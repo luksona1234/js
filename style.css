@@ -1,0 +1,18 @@
+#btn1{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+
+.box-orange{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin-top: 0px;
+    margin-left: 37.5%;
+}
+.ptag{
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}

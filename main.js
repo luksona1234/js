@@ -86,6 +86,55 @@ btn1.addEventListener('click', function (){
     orngBox.classList.toggle('box-orange');
 })
 
+let prplbx = document.querySelector('.purpleBox');
+
+function prplbx1(){
+    prplbx.style.width = '70%'
+    prplbx.style.height = '300px'
+    prplbx.style.backgroundColor = 'purple'
+    prplbx.style.marginLeft = '15%'
+    prplbx.style.marginTop = '10px'
+    prplbx.style.borderRadius = '2%'
+    prplbx.style.textAlign = 'center'
+    return prplbx
+}
+console.log(prplbx1());
+
+
+
+let p10 = document.querySelector('.p10');
+
+function P10(){
+    p10.style.fontSize = '40px'
+    p10.style.color = 'white'
+    return p10
+}
+console.log(P10());
+
+let input = document.querySelector('.input');
+
+
+function inpput(){
+    input.style.width = '350px'
+    input.style.height = '20px'
+    input.style.marginLeft = '-100px'
+    return input
+}
+
+console.log(inpput());
+
+let box50 = document.querySelector('.box-50');
+
+function boX50(){
+    box50.style.width = '85px'
+    box50.style.height = '25px'
+    box50.style.marginTop = '-229px'
+    box50.style.marginLeft = '529px'
+    box50.style.backgroundColor = 'red'
+    box50.style.textAlign = 'center'
+    return box50
+}
+console.log(boX50());
 
 
 
